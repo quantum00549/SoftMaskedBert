@@ -7,7 +7,7 @@
 @IDE: Pycharm Professional
 @REFERENCE: 论文：《Spelling Error Correction with Soft-Masked BERT》，
             模型构建参考自https://github.com/will-wiki/softmasked-bert，
-            修改了部分代码，修改了项目架构，修复了部分bug，补充了一些缺失的模型结构，在loss和准确率计算中加入来人mask，并增添了海量注释。
+            修改了部分代码，修改了项目架构，修复了部分bug，补充了一些缺失的模型结构，在loss和准确率计算中加入了mask，并增添了海量注释。
 """
 
 import torch
