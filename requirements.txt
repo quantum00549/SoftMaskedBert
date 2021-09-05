@@ -1,0 +1,4 @@
+torch==1.9.0
+tqdm==4.40.0
+transformers==4.9.2
+pandas==0.25.1
