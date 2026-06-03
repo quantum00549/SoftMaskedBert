@@ -1,10 +1,12 @@
-# SoftMasked Bert文本纠错模型实现  
-论文：《Spelling Error Correction with Soft-Masked BERT》  
-1、基于Pytorch1.9.0，Python3.8，参考了github上的诸多实现，修复了各家的bug和结构遗漏，增添了海量注释；  
-2、数据集为Narts（或者叫sighan？），直接从一位兄弟的复现里复制出来的数据，想用自己的数据的话照着格式处理就行；   
-3、一些参数可以去model/config.py下修改；  
-4、运行model/train.py即可训练模型（测试函数也在其中），centos7可无错运行，其他平台尚未测试；
-5、根目录下的main.py目前为空，计划在其中写实际运用的方法，不过这就是另一个项目了。
+SoftMasked BERT Text Correction Model Implementation
+
+Paper: Spelling Error Correction with Soft-Masked BERT
+
+Based on PyTorch 1.9.0 and Python 3.8. This implementation refers to many GitHub implementations, fixes bugs and structural omissions from various versions, and adds extensive comments.
+The dataset is Narts, or possibly SIGHAN. It was copied directly from another developer’s reproduction. If you want to use your own data, just process it according to the same format.
+Some parameters can be modified in model/config.py.
+Run model/train.py to train the model. The testing function is also included there. It runs without errors on CentOS 7; other platforms have not been tested yet.
+The main.py file in the root directory is currently empty. I plan to write practical application methods there later, but that will be another project.
 
 
 
